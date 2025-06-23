@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>3 / 3</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&family=Sacramento&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0; padding: 0;
+      background: linear-gradient(135deg, #f9f5ff, #e8def8, #faf8ff);
+      font-family: 'Quicksand', sans-serif;
+      color: #5b3e5f;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+      text-align: center;
+    }
+    .contenedor {
+      background: #fff9fe;
+      padding: 32px 28px;
+      border-radius: 22px;
+      max-width: 360px;
+      width: 100%;
+      box-shadow: 0 12px 32px rgba(91, 62, 95, 0.1);
+      border: 3.5px solid #c5a8d3;
+    }
+    h2 {
+      font-weight: 700;
+      font-size: 28px;
+      color: #6e4a79;
+      margin-bottom: 20px;
+      letter-spacing: 12px;
+      user-select: none;
+    }
+    .frase {
+      font-family: 'Sacramento', cursive;
+      font-size: 22px;
+      color: #8e699b;
+      margin-bottom: 28px;
+      line-height: 1.4;
+      font-style: normal;
+      padding: 0 10px;
+    }
+    .imagen-contenedor {
+      background: #e6d7f0;
+      padding: 15px;
+      border-radius: 20px;
+      display: inline-block;
+      box-shadow: 0 6px 20px rgba(145, 110, 183, 0.15);
+      margin-bottom: 20px;
+      transition: box-shadow 0.3s ease;
+    }
+    .imagen-contenedor:hover {
+      box-shadow: 0 10px 32px rgba(145, 110, 183, 0.28);
+    }
+    img {
+      width: 280px;
+      max-width: 90vw;
+      border-radius: 18px;
+      border: 3px solid #bda1d7;
+      display: block;
+      transition: transform 0.25s ease;
+      cursor: pointer;
+    }
+    img:hover {
+      transform: scale(1.05);
+    }
+    .fecha {
+      font-family: 'Sacramento', cursive;
+      font-size: 28px;
+      color: #7f619a;
+      letter-spacing: 6px;
+      margin-top: 18px;
+      margin-bottom: 30px;
+      user-select: none;
+    }
+    h3 {
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      color: #6c4c7b;
+      margin-bottom: 20px;
+      font-style: normal;
+      padding: 0 10px;
+    }
+    audio {
+      width: 100%;
+      border-radius: 14px;
+      box-shadow: 0 4px 14px rgba(108, 75, 146, 0.2);
+      outline: none;
+      cursor: pointer;
+    }
+    @media (max-width: 400px) {
+      .contenedor {
+        max-width: 95vw;
+        padding: 28px 20px;
+      }
+      h2 {
+        font-size: 24px;
+        letter-spacing: 10px;
+      }
+      .frase {
+        font-size: 20px;
+      }
+      .fecha {
+        font-size: 24px;
+        letter-spacing: 4px;
+      }
+      img {
+        width: 85vw;
+      }
+      h3 {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <h2>3 / 3</h2>
+
+    <p class="frase">
+      Tres amigos, muchas risas y un cariño que crece cada día.<br>
+      Ustedes son mi alegría constante.
+    </p>
+
+    <div class="imagen-contenedor">
+      <img src="img/Amy2.jpeg" alt="Foto especial" />
+    </div>
+
+    <div class="fecha">22 - 06 - 2025</div>
+
+    <h3>
+      Los quiero mucho ❤
+    </h3>
+
+    <audio controls>
+      <source src="audio/Carla Morrison - Contigo (Acto 4) Official Music Video.mp3" type="audio/mpeg" />
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+  </div>
+</body>
+</html>
